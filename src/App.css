@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Pompiere&display=swap");
+
+* {
+  margin: 0em;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.h {
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Pompiere", cursive;
+  letter-spacing: 1px;
+  color: #fd5e53;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+body {
+  padding: 1%;
+}
+.header {
+  width: 80%;
+  margin: 100px;
+}
+.main {
+  padding: 3%;
+  width: 75%;
+  margin: 0 auto;
+}
+.main > .meme {
+  padding: 20px;
+  box-shadow: 5px 10px 15px 10px rgba(0, 0, 0, 0.4);
+  font-size: 35px;
+  border-radius: 18px;
+  width: 100%;
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+.buttonDiv button {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.generate {
+  background-color: #a7e9af;
+}
+.inputBox {
+  background-color: #5b8c85;
+}
+.buttonDiv button:hover {
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.meme > img {
+  width: 100%;
+}

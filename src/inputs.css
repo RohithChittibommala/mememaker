@@ -1,0 +1,32 @@
+.inputH2 {
+  position: absolute;
+  padding: 2.5%;
+}
+textarea {
+  padding: 2.5%;
+  border: none;
+  outline: none;
+}
+textarea:focus,
+textarea:hover {
+  border: 1px solid blue;
+}
+h2 > textarea {
+  position: absolute;
+
+  z-index: 1;
+  width: 600px;
+  height: 80px;
+  resize: none;
+  /* padding: x'- */
+  font-family: impact, sans-serif;
+  word-wrap: break-word;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;
+  background: none;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}

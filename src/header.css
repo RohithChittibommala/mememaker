@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Pompiere&display=swap");
+
+.header {
+  display: grid;
+  font-family: "Pompiere", cursive;
+  font-size: 30px;
+  grid-template-columns: 1fr 2fr;
+  /* border: 2px dashed orange; */
+  gap: 10px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  font-size: 50px;
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.svg {
+  background: url("./components/undraw_Designer_by46.svg");
+  background-size: cover;
+  width: 100%;
+}
